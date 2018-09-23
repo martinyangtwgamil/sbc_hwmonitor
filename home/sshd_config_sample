@@ -1,0 +1,14 @@
+PermitRootLogin no
+ChallengeResponseAuthentication no
+PasswordAuthentication no
+UsePAM no
+AuthenticationMethods publickey
+PubkeyAuthentication yes
+DenyUsers root
+AllowUsers sbc_id
+Port 300
+ListenAddress 10.237.0.1
+ClientAliveInterval 300
+ClientAliveCountMax 0
+HostbasedAuthentication no
+MaxStartups 10:30:100
